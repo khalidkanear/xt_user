@@ -1,0 +1,58 @@
+name: xtreamgynlogin
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+
+  sdk: ">=2.16.1-0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  lottie: ^1.2.1
+  simple_animations: ^1.3.3
+  video_player: ^2.1.1
+  avatar_glow:
+  cupertino_icons: ^1.0.2
+  intl_phone_field: ^3.0.0
+  flutter_verification_code: ^1.1.2+1
+  smooth_page_indicator: ^1.0.0+2
+  image_picker: ^0.8.4+9
+  flappy_search_bar: 1.4.1
+  progress_indicators: 1.0.0
+  country_pickers: 2.0.0
+  curved_navigation_bar: 1.0.3
+  charts_flutter: 0.12.0
+  http: 0.13.4
+  percent_indicator: 4.0.0
+  cached_network_image: 3.0.0
+  get: 4.6.5
+  get_storage: 2.0.3
+  chewie: 1.3.0
+  agora_rtc_engine:  5.2.0
+  permission_handler: 9.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_splash: 2.1.0
+flutter_native_splash:
+  color: "#1C2329"
+  image: assets/images/splash.png
+
+  flutter_lints: ^1.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/images/
+
+  fonts:
+     - family: Poppins
+       fonts:
+         - asset: assets/fontfamily/Poppins-Regular.ttf
+           style: italic
